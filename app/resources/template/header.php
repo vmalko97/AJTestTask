@@ -12,24 +12,23 @@
     <!-- Bootstrap CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-            crossorigin="anonymous"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/app/resources/assets/css/main.css">
-
+    <link rel="stylesheet" href="/app/resources/assets/libs/chosen/chosen.min.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="#">ArtJoker Test App</a>
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Главная</a>
+                <a class="nav-link" href="/">Головна</a>
             </li>
         </ul>
         <ul class="navbar-nav pull-right">
             <li class="nav-item">
-                <a class="nav-link" href="#">Регистрация</a>
+                <a class="nav-link" href="/?page=register">Реєстрація</a>
             </li>
         </ul>
     </div>
@@ -37,9 +36,6 @@
 
 <main role="main" class="container">
 
-    <div class="main">
-        <h1>ArtJoker Test Application</h1>
-        <p class="lead">Перейдите к разделу регистрация :)</p>
-    </div>
 
-</main><!-- /.container -->
+
+

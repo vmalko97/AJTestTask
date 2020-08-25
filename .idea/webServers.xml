@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d54c875d-78fa-423d-95a2-572fcb4192a9" name="Fornex" url="http://ajtest.vladyslav.pro">
+        <fileTransfer rootFolder="/public_html/ajtest.vladyslav.pro" host="hostnl1.fornex.org" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

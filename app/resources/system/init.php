@@ -12,7 +12,7 @@ define('DB_NAME', 'v55600_artjoker');
 
 //INITIALIZE Database
 $mysqli = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
-$mysqli->query("set charset utf8");
+$mysqli->query("set names 'utf8'");
 
 //INITIALIZE CLASSES
 spl_autoload_register(function ($class_name) {

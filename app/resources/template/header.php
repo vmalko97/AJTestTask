@@ -27,6 +27,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="/">Головна</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/?page=all_users">Всі користувачі</a>
+            </li>
         </ul>
         <ul class="navbar-nav pull-right">
             <li class="nav-item">

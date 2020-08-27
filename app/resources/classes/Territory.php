@@ -18,4 +18,9 @@ class Territory {
         $this->data = $mysqli->query("SELECT * FROM t_koatuu_tree WHERE ter_pid = '$district_id' AND ter_type_id IN (1,4,5,6)")->fetch_all(MYSQLI_ASSOC);
         return $this->data;
     }
+    public function getTerritoryName($t_id){
+        global $mysqli;
+        $this->data = $mysqli->query("SELECT * FROM t_koatuu_tree WHERE ter_id = '$t_id'")->fetch_all(MYSQLI_ASSOC);
+        return $this->data[0]['ter_name'];
+    }
 }
